@@ -9,9 +9,11 @@ authors = [
     {name = "Jianyuan Wang", email = "jianyuan@robots.ox.ac.uk"},
 ]
 dependencies = [
-    "numpy<2",
+    "numpy",
     "Pillow",
     "einops",
+    "jaxtyping",
+    "modelscope",
     "safetensors",
     "opencv-python",
 ]
